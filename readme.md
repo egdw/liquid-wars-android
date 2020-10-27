@@ -1,12 +1,12 @@
 # 液体战争安卓版
 
-这份源码来自[xenris](https://github.com/xenris/liquid-wars-android)，但是原来的代码已经太老了，我进行了适度的修正使其能够在Android9.0极其以上的系统运行。同时增加了对中文的支持。
+这份源码来自[xenris](https://github.com/xenris/liquid-wars-android)，但是原来的代码已经太老了，我进行了适度的修正使其能够在Android9.0及其以上的系统运行。同时增加了对中文的支持。
 
 请[点击](https://github.com/egdw/liquid-wars-android/releases/download/1.42/liquid-wars.apk)这里下载APK文件
 
 # Liquid Wars for Android
 
-The source is from [xenris] (https://github.com/xenris/liquid-wars-android), but the original code is too old, I had to modest correction Android9.0 extremely above system is running. It also adds support for Chinese.
+The source is from [xenris] (https://github.com/xenris/liquid-wars-android), but the original code was too old, so I made some modest fixes to make it work on Android9.0 and above. It also adds support for Chinese.
 
 Please [click here](https://github.com/egdw/liquid-wars-android/releases/download/1.42/liquid-wars.apk) to download APK file.
 
