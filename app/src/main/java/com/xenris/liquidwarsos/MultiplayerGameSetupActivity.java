@@ -164,8 +164,13 @@ public class MultiplayerGameSetupActivity extends Activity implements OnItemSele
     public void start(View view) {
         ServerFinder.stopSharing();
         StaticBits.server.stopAccepting();
-        int[] args = {StaticBits.START_GAME, StaticBits.seed, StaticBits.map, StaticBits.dotsPerTeam};
-        StaticBits.server.sendToAll(4, args);
+        final int[] args = {StaticBits.START_GAME, StaticBits.seed, StaticBits.map, StaticBits.dotsPerTeam};
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                StaticBits.server.sendToAll(4, args);
+            }
+        }).start();
         StaticBits.server.setCallbacks(null);
         StaticBits.team = Util.clientIdToPlayerNumber(myID);
 
