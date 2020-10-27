@@ -18,12 +18,10 @@
 package com.xenris.liquidwarsos;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.widget.TextView;
-import android.widget.Toast;
 import android.view.View;
 import android.view.Window;
-import android.content.Intent;
 
 public class MainMenuActivity extends Activity {
     @Override
@@ -42,12 +40,12 @@ public class MainMenuActivity extends Activity {
 
     public void multiplayerMenu(View view) {
         String ip = NetInfo.getIPAddress(this);
-        if((ip == null) || (ip.compareTo("0.0.0.0") == 0)) {
-            Toast.makeText(this, R.string.Need_Wi_Fi, Toast.LENGTH_SHORT).show();
-        } else {
-            Intent intent = new Intent(this, MultiplayerMenuActivity.class);
-            startActivity(intent);
-        }
+//        if((ip == null) || (ip.compareTo("0.0.0.0") == 0)) {
+//            Toast.makeText(this, R.string.Need_Wi_Fi, Toast.LENGTH_SHORT).show();
+//        } else {
+        Intent intent = new Intent(this, MultiplayerMenuActivity.class);
+        startActivity(intent);
+//        }
     }
 
     public void instructions(View view) {

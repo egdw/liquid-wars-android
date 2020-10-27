@@ -21,6 +21,8 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -35,6 +37,8 @@ import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import java.lang.Thread;
 import java.util.ArrayList;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class GameClientActivity extends Activity implements Client.ClientCallbacks, Runnable, MyGLSurfaceView.SurfaceCallbacks {
     private MyGLSurfaceView myGLSurfaceView = null;
@@ -48,6 +52,26 @@ public class GameClientActivity extends Activity implements Client.ClientCallbac
     private boolean gameFinished;
     private boolean lostGame;
     private AlertDialog dialog;
+    private static ExecutorService fixedThreadPool = Executors.newFixedThreadPool(8);
+    //To slove NetworkOnMainThreadException
+    private Handler messageSendHandler = new Handler(){
+        @Override
+        public void handleMessage(Message msg) {
+            if (msg.what==0x1) {
+                sendPlayerData();
+            }else if(msg.what == 0x2){
+                final int[] data = (int[]) msg.obj;
+                Runnable run = new Runnable() {
+                    @Override
+                    public void run() {
+                        StaticBits.client.send(data.length, data);
+                    }
+                };
+                fixedThreadPool.execute(run);
+            }
+        }
+    };
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -182,7 +206,10 @@ public class GameClientActivity extends Activity implements Client.ClientCallbac
             data[i+5+1] = ys[i];
         }
         data[0] = StaticBits.PLAYER_POSITION_DATA;
-        StaticBits.client.send(data.length, data);
+        Message message = new Message();
+        message.what = 0x2;
+        message.obj = data;
+        messageSendHandler.sendMessage(message);
     }
 
     @Override
@@ -210,7 +237,8 @@ public class GameClientActivity extends Activity implements Client.ClientCallbac
             xs[upId] = -1;
             ys[upId] = -1;
         }
-        sendPlayerData();
+
+        messageSendHandler.sendEmptyMessage(0x1);
 //        android.util.Log.i("mylog", xs[1] + " " + ys[1]);
     }
 

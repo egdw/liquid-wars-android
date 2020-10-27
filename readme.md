@@ -4,11 +4,21 @@
 
 请[点击](https://github.com/egdw/liquid-wars-android/releases/download/1.42/liquid-wars.apk)这里下载APK文件
 
+## 修复内容
+
+* 修复多人对战错误的问题
+* 解决无法热点联机对战的问题
+
 # Liquid Wars for Android
 
 The source is from [xenris] (https://github.com/xenris/liquid-wars-android), but the original code was too old, so I made some modest fixes to make it work on Android9.0 and above. It also adds support for Chinese.
 
 Please [click here](https://github.com/egdw/liquid-wars-android/releases/download/1.42/liquid-wars.apk) to download APK file.
+
+## Fix the content
+
+* Fixed a problem with multiplayer
+* Resolved the problem of not being able to hot play online
 
 # Statement
 
