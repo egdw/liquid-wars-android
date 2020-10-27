@@ -1,11 +1,17 @@
 # 液体战争安卓版
+
 这份源码来自[xenris](https://github.com/xenris/liquid-wars-android)，但是原来的代码已经太老了，我进行了适度的修正使其能够在Android9.0极其以上的系统运行。同时增加了对中文的支持。
 
+请[点击](https://github.com/egdw/liquid-wars-android/releases/download/1.42/liquid-wars.apk)这里下载APK文件
+
 # Liquid Wars for Android
+
 The source is from [xenris] (https://github.com/xenris/liquid-wars-android), but the original code is too old, I had to modest correction Android9.0 extremely above system is running. It also adds support for Chinese.
 
+Please [click here](https://github.com/egdw/liquid-wars-android/releases/download/1.42/liquid-wars.apk) to download APK file.
 
-# The statement
+# Statement
+
 This file is part of Liquid Wars.
 
 Copyright (C) 2013 Henry Shepperd (hshepperd@gmail.com)
@@ -31,3 +37,11 @@ On Linux machines (and probably most other Unix based machines) the
 build.sh, install.sh and run.sh shell scripts should build, install
 and run on a debug device, provided the Android SDK, NDK and adb are
 set up correctly.
+
+# Demonstration
+![image 1](https://github.com/egdw/liquid-wars-android/blob/master/pictures/1.jpg?raw=true)
+![image 2](https://github.com/egdw/liquid-wars-android/blob/master/pictures/2.jpg?raw=true)
+![image 3](https://github.com/egdw/liquid-wars-android/blob/master/pictures/3.jpg?raw=true)
+![image 4](https://github.com/egdw/liquid-wars-android/blob/master/pictures/4.jpg?raw=true)
+
+Have fun!
