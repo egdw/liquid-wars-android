@@ -1,0 +1,4 @@
+./obj/local/arm64-v8a/objs/application/application/random.o: \
+  jni/application/random.cpp jni/application/random.hpp
+
+jni/application/random.hpp:

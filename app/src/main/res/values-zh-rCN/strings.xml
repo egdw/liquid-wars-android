@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">液体战争</string>
+    <string name="team">队伍:</string>
+    <string name="time_limit">时间限制:</string>
+    <string name="team_size">队伍数量:</string>
+    <string name="map">地图:</string>
+    <string name="Start">开始</string>
+    <string name="single_player_game">单人游戏</string>
+    <string name="multiplayer_game">多人游戏</string>
+    <string name="how_to_play">游戏规则</string>
+    <string name="Public_Name">房间号:</string>
+    <string name="Connect_To_Game">连接游戏</string>
+    <string name="Start_New_Game">开始新游戏</string>
+    <string name="Back_to_menu">你确定要返回菜单码?</string>
+    <string name="Yes">是</string>
+    <string name="No">否</string>
+    <string name="You_Win">你赢了！</string>
+    <string name="You_Lose">你输了！</string>
+    <string name="Need_Wi_Fi">需要连接WiFi才能开启多人模式。</string>
+    <string name="Enter_IP_Address">请输入IP地址</string>
+    <string name="Connect">连接</string>
+    <string name="Cancel">取消</string>
+    <string name="Manual_Connect">手动连接</string>
+    <string name="Done">完成</string>
+    <string name="Searching_on">搜索中 </string>
+    <string name="Connection_lost">连接超时</string>
+    <string name="Game_canceled">游戏已取消</string>
+    <string name="Connecting_to">连接到 </string>
+    <string name="Out_of_time_You_win">超出时间！你赢了！</string>
+    <string name="Out_of_time">超出时间! </string>
+    <string name="wins"> 胜利!</string>
+    <string name="instructions1">目标：\n把敌人的军队都变成自己的颜色就能赢得胜利。</string>
+    <string name="instructions2">怎么玩:\n点击屏幕的任意地方使你的军队朝点击的方向移动.\n最多可以使用五个手指来引导你的军队.\n敌人的液体在碰撞时会变成你自己的液体\n尽量包围敌人以达到最佳效果。汉化作者:\恶搞大王</string>
+
+    <string name="Enter_a_name_to_identify_your_game">请输入房间名</string>
+
+    <string name="Number_of_players">当前在线用户数量：</string>
+    <string name="Sharing_game_on">分享游戏在：</string>
+
+    <string-array name="teams_array">
+        <item>绿色</item>
+        <item>蓝色</item>
+        <item>红色</item>
+        <item>青色</item>
+        <item>黄色</item>
+        <item>品红</item>
+    </string-array>
+    <string-array name="maps_array">
+        <item>随机</item>
+        <item>地图1</item>
+        <item>白色椭圆</item>
+        <item>地图2</item>
+        <item>地图3</item>
+        <item>空白</item>
+        <item>Arch Linux</item>
+        <item>红线</item>
+        <item>椭圆</item>
+        <item>反转椭圆</item>
+        <item>液体战争</item>
+        <item>对称</item>
+        <item>小迷宫</item>
+        <item>绿色轮廓</item>
+        <item>红色三角</item>
+        <item>液体战争池</item>
+        <item>绿色矩形</item>
+        <item>绿色</item>
+        <item>眼睛</item>
+        <item>点阵</item>
+        <item>小圆点</item>
+        <item>大圆点</item>
+        <item>紫色曲线</item>
+        <item>乱涂乱画</item>
+        <item>分割区域</item>
+        <item>有来有回</item>
+        <item>锯齿盒子</item>
+        <item>波浪</item>
+        <item>巢</item>
+        <item>红色</item>
+        <item>缝隙</item>
+        <item>中等迷宫1</item>
+        <item>巨大迷宫</item>
+        <item>中等迷宫2</item>
+        <item>中等迷宫3</item>
+        <item>多彩队伍</item>
+        <item>星星</item>
+        <item>骷髅</item>
+        <item>字母表</item>
+        <item>好多眼睛！</item>
+        <item>Mandelbrot</item>
+        <item>穿越词海</item>
+        <item>Safari</item>
+        <item>微笑</item>
+        <item>彩色玻璃</item>
+        <item>泡泡</item>
+        <item>形状各异</item>
+    </string-array>
+    <string-array name="timeout_array">
+        <item>30 秒</item>
+        <item>1 分钟</item>
+        <item>2 分钟</item>
+        <item>3 分钟</item>
+        <item>5 分钟</item>
+        <item>10 分钟</item>
+        <item>23 天</item>
+    </string-array>
+    <string-array name="teamsize_array">
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>1500</item>
+    </string-array>
+</resources>

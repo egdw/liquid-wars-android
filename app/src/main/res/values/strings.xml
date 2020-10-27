@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Liquid Wars OS</string>
+    <string name="team">Team:</string>
+    <string name="time_limit">Time Limit</string>
+
+    <string name="team_size">Team Size:</string>
+
+    <string name="map">Map:</string>
+    <string name="Start">Start</string>
+    <string name="single_player_game">Single Player Game</string>
+    <string name="multiplayer_game">Multiplayer Game</string>
+    <string name="how_to_play">How To Play</string>
+
+
+
+    <string name="Public_Name">Public Name:</string>
+    <string name="Connect_To_Game">Connect To Game</string>
+
+
+    <string name="Back_to_menu">Back to menu?</string>
+
+
+    <string name="Yes">Yes</string>
+    <string name="Start_New_Game">Start New Game</string>
+
+
+    <string name="No">No</string>
+    <string name="You_Win">You Win!</string>
+    <string name="You_Lose">You Lose</string>
+    <string name="Need_Wi_Fi">Need Wi-Fi connection for multiplayer game.</string>
+
+
+    <string name="Enter_IP_Address">Enter IP Address</string>
+    <string name="Connect">Connect</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Searching_on">Searching on </string>
+
+
+    <string name="Manual_Connect">Manual Connect</string>
+    <string name="Done">Done</string>
+    <string name="Connection_lost">Connection lost</string>
+    <string name="Game_canceled">Game canceled</string>
+
+
+    <string name="Connecting_to">Connecting to</string>
+    <string name="Out_of_time_You_win">Out of time! You win!</string>
+    <string name="Out_of_time">Out of time! </string>
+    <string name="wins"> wins!</string>
+    <string name="instructions1">Aim:\nConvert the enemy\'s army to your own colour to win.</string>
+    <string name="instructions2">How to play:\nWherever you touch the screen your army will run to.\nUse up to five fingers to guide your army.\nEnemy liquid will be converted to your own when they collide.\nTry to surround the enemy for the best effect.</string>
+
+
+    <string name="Enter_a_name_to_identify_your_game">Enter a name to identify your game:</string>
+
+    <string name="Number_of_players">Number of players</string>
+    <string name="Sharing_game_on">Sharing game on </string>
+
+
+    <string-array name="teams_array">
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Cyan</item>
+        <item>Yellow</item>
+        <item>Magenta</item>
+    </string-array>
+    <string-array name="maps_array">
+        <item>Random</item>
+        <item>Pine</item>
+        <item>White Ovals</item>
+        <item>Pine 2</item>
+        <item>Backing Pine</item>
+        <item>Empty</item>
+        <item>Arch Linux</item>
+        <item>Red Line Bits</item>
+        <item>Oval</item>
+        <item>Inverted Oval</item>
+        <item>Liquid Wars</item>
+        <item>Symmetry</item>
+        <item>Small Maze</item>
+        <item>Green Silhouettes</item>
+        <item>Red Triangles</item>
+        <item>Liquid Wars Soup</item>
+        <item>Green Rectangles</item>
+        <item>Green</item>
+        <item>Eye</item>
+        <item>Dots</item>
+        <item>Big Dots</item>
+        <item>Diamonds</item>
+        <item>Purple Curves</item>
+        <item>Sharp Squiggle</item>
+        <item>Dividers</item>
+        <item>Back and Forth</item>
+        <item>Jagged Boxes</item>
+        <item>Wavy</item>
+        <item>Nests</item>
+        <item>Red</item>
+        <item>Gaps</item>
+        <item>Medium Maze</item>
+        <item>Big Maze</item>
+        <item>Medium Maze 2</item>
+        <item>Medium Maze 3</item>
+        <item>Team Colours</item>
+        <item>Stars</item>
+        <item>Skull</item>
+        <item>ABC</item>
+        <item>Eyes</item>
+        <item>Mandelbrot</item>
+        <item>Crossword</item>
+        <item>Safari</item>
+        <item>Smilies</item>
+        <item>Stained Glass</item>
+        <item>Circles</item>
+        <item>Shapes</item>
+    </string-array>
+    <string-array name="timeout_array">
+        <item>30 Seconds</item>
+        <item>1 Minute</item>
+        <item>2 Minutes</item>
+        <item>3 Minutes</item>
+        <item>5 Minutes</item>
+        <item>10 Minutes</item>
+        <item>23 Days</item>
+    </string-array>
+    <string-array name="teamsize_array">
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>1500</item>
+    </string-array>
+</resources>
